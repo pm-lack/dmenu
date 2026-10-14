@@ -3,8 +3,8 @@
 
 static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom     */
 static const unsigned int alpha = 0xC0; /* -fn option overrides fonts[0]; default X11 font or font set */
-static char font[] = "monospace:size=20";
-static const char *fonts[] = { font, "monospace:size=20" };
+static char font[] = "Misc Tamzen:size=10";
+static const char *fonts[] = { font };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
 static char normfgcolor[] = "#e4e4e4";
