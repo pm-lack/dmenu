@@ -7,16 +7,16 @@ static char font[] = "monospace:size=20";
 static const char *fonts[] = { font, "monospace:size=20" };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
-static char normfgcolor[] = "#bbbbbb";
-static char normbgcolor[] = "#222222";
-static char selfgcolor[]  = "#eeeeee";
-static char selbgcolor[]  = "#005577";
+static char normfgcolor[] = "#e4e4e4";
+static char normbgcolor[] = "#424242";
+static char selfgcolor[]  = "#e4e4e4";
+static char selbgcolor[]  = "#575757";
 static char *colors[SchemeLast][2] = {
- 	/*     fg         bg       */
+	/*     fg         bg       */
 	[SchemeNorm] = { normfgcolor, normbgcolor },
 	[SchemeSel]  = { selfgcolor,  selbgcolor  },
-	[SchemeOut]  = { "#000000",   "#00ffff" },
- };
+	[SchemeOut]  = { "#424242",   "#e4e4e4" },
+};
 
 static const unsigned int alphas[SchemeLast][2] = {
 	[SchemeNorm] = { OPAQUE, alpha },
